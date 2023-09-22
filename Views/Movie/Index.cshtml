@@ -1,0 +1,34 @@
+@model List<Practice2.Models.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <a href="/Movie/Index" style="text-decoration: none"><h1>Asian Movies</h1></a>
+    <hr />
+
+    <form class="mb-3" method="POST" action="/Movie/Find">
+        <div class="input-group">
+            <input type="text" name="movie" class="form-control" placeholder="Buscar por título">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </form>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@item.image_url" class="card-img-top" alt="@item.title"
+                        style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.title</h5>
+                        <p class="card-text">@item.director</p>
+                        <p class="card-text">@item.year</p>
+                        <a href="/Movie/Details/@item.id" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        }
+    

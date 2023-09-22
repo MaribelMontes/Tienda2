@@ -1,0 +1,67 @@
+@model IEnumerable<Practice2.Models.Actor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div style="background: rgb(121, 3, 248);
+            background: linear-gradient(90deg, rgb(5, 115, 200) 0%, rgb(88, 102, 231) 50%, rgb(5, 26, 94) 100%);
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px">
+    <h1 style="color: white;">Asian Actors</h1>
+</div>
+
+<p>
+    <a asp-action="Create" class="btn btn-warning">Create New</a> 
+</p>
+
+<form asp-action="Search" method="get">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="Search" placeholder="Buscar por actor o descripcion">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.image_url)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                <img src=@item.image_url width="100px">
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", new { id = item.id })" class="btn btn-info">Editar</a>|
+                 <a href="@Url.Action("Details", new { id = item.id })" class="btn btn-success">Detalles</a>|
+                <a href="@Url.Action("Delete", new { id = item.id })" class="btn btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,33 @@
+@model Practice2.Models.Cantante
+
+<div class="container-comments">
+    @foreach (var item in Model.Album)
+    {
+        <div class="bg/white p-2">
+        <span>Album </span>
+        <span class="text-black-50">
+            Name - @item.name
+        </span>
+        <div class="mt-2">
+             <img src=@item.image_url width="200px">
+            </div>
+            <hr />
+        </div>
+    }
+
+    <div class="bg-light p-2">
+        <form asp-controller="Album" asp-action="Save" method="POST">
+            <input type="hidden" name="cantanteid" value=@Model.id />
+            <label class="control-label">Album</label>
+            <br>
+            <textarea name="name" class="form-control- mb-1"></textarea>
+
+            <div class="form-group">
+                <label type="" class="control-label">Url: </label>
+                <input type="text" name="image_url" id="image_url" class="form-control" />
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar Album </button> 
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+@model Practice2.Models.Movie
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-5">
+    <h1>@Model.title</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@Model.image_url" class="img-fluid" alt="@Model.title">
+        </div>
+        <div class="col-md-8">
+            <h4>Director: @Model.director</h4>
+            <p><strong>Publicación: </strong>@Model.year</p>
+            <p><strong>Rating: </strong>@Model.rating</p>
+            <p><strong>Género: </strong>@Model.genre</p>
+            <p><strong>Descripción: </strong> @Model.description</p>
+             <a href="/Movie/Index"><button type="button" class="btn btn-primary">Regresar</button></a>
+        </div>
+    </div>
+    
+     
+
+</div>

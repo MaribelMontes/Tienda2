@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "The Childe",
+    "year": "2023",
+    "director": "Park Hoon-Jung",
+    "genre": "Action, film noir, suspense",
+    "rating": "9.8",
+    "description": "A boy of Korean father and Filipino mother, who dreams of becoming a boxer, arrives in Korea to find his father who abandoned him and meets bad boys.",
+    "image_url": "https://th.bing.com/th/id/OIP.iw4-dySYjp3rTUSpLL6MGAHaKl?pid=ImgDet&rs=1"
+  },
+  {
+    "id": 2,
+    "title": "Innocence",
+    "year": "2020",
+    "director": "Sang-Hyun Park",
+    "genre": "Drama, crime, suspense",
+    "rating": "9.3",
+    "description": "A mother who does not recognize faces is suspected of poisoning someone, her daughter decides to defend her mother and reveal the truth behind the case",
+    "image_url": "https://th.bing.com/th/id/OIP.OLK4wOnzaV9OUa6AvIBRPwHaKn?pid=ImgDet&rs=1"
+  },
+  {
+    "id": 3,
+    "title": "V.I.P",
+    "year": "2017",
+    "director": "Park Hoon-jung",
+    "genre": "Thriller. Acción | Crime.  Serial killers.Police",
+    "rating": "9.2",
+    "description": "The son of a high-ranking North Korean official, Kim Kwang Il (Lee Jong Suk), is involved in a series of murders being committed in various countries around the world. In this way, security forces of South and North Korea, in addition to Interpol, begin to pursue him. ",
+    "image_url": "https://i.pinimg.com/736x/fd/54/1b/fd541b1743467b39d8ab1261f3aa3b58.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Dream",
+    "year": "2023",
+    "director": " Lee Byung Hun",
+    "genre": "Comedy, Drama, Sports",
+    "rating": "8.1",
+    "description": "Surrender. Success. Teamwork. Can a grumpy professional footballer put aside his ego and train a group of homeless men for a World Cup?",
+    "image_url": "https://i.mydramalist.com/E5xv7b_4f.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Rampant",
+    "year": "2018",
+    "director": "Seong Hun Kim",
+    "genre": "Action, Drama, Horror, Story, Suspense",
+    "rating": "6.3",
+    "description": "Korea is submerged in a plague that has affected the population and caused them to become bloody zombies. Prince Lee Chung (Hyun Bin) will have to forcibly return from his exile to try to take control and fight against this unstoppable threat that is taking control of his kingdom.",
+    "image_url": "https://fr.web.img6.acsta.net/pictures/18/10/18/09/14/4421774.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Negotiation",
+    "year": "2018",
+    "director": "Jong-suk Lee",
+    "genre": "Action, Crime, Suspense",
+    "rating": "6.7",
+    "description": "Ha Chae-Yoon (Son Ye-jin), an expert negotiator for the Metropolitan Police in Seoul, must negotiate within 12 hours with an arms dealer, Min Tae-gu (Hyun Bin), who has taken a Korean policeman and reporter hostage in Bangkok and threatens to kill them.",
+    "image_url": "https://th.bing.com/th/id/R.7bc8eb0fc2686310944a7a5a5ba64699?rik=C%2f3jcATpveBmIg&riu=http%3a%2f%2fasianwiki.com%2fimages%2fa%2fac%2fThe_Negotiation-p1.jpg&ehk=3GGEsMcVmVXaX6Aqjw8UTgKS%2bGCn2Ty2rn4PSMhVcQM%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 7,
+    "title": "Be with You ",
+    "year": "2018",
+    "director": "Lee Jang-hoon",
+    "genre": "Romantic and fantastic drama",
+    "rating": "7.7",
+    "description": "Soo-ah (Son Ye-jin) before she passed on, makes an unbelievable promise to her husband, Woo-jin (So Ji-sub), to return one year later at the start of the rainy season. Miraculously, she keeps the promise and reappears before her husband and son, but she has no memory recollection. Sadly, the relief at their reunion is short-lived, because it turns out that Soo-ah has to leave her family at the end of the rainy season.",
+    "image_url": "https://images.justwatch.com/poster/75183925/s718/be-with-you.%7Bformat%7D"
+  },
+  {
+    "id": 8,
+    "title": "Big Mouth",
+    "year": "2022",
+    "director": "Oh Choong Hwan",
+    "genre": "Mystery/Drama/Crime",
+    "rating": "8.9",
+    "description": "A lawyer with a 10% win rate ends up involved in a murder case and becomes, overnight, the famous and brilliant Big Mouse con man. In order to survive and protect his family, he tries to show what the privileged people who are involved in a huge conspiracy are really like.",
+    "image_url": "https://korea-descargas.org/wp-content/uploads/2022/08/097123100_1657699112-Big_Mouth_Main_Poster-315x420.jpg"
+  },
+  {
+    "id": 9,
+    "title": "A girl of the twentieth century",
+    "year": "2022",
+    "director": "Bang Woo-ri",
+    "genre": "Drama, Romance",
+    "rating": "8.0",
+    "description": "In 1999, a teenager begins to follow a boy to help her best friend, who is madly in love with him ... until she is involved in a love story of her own.",
+    "image_url": "https://i.ytimg.com/vi/91J1rWtqhn8/maxresdefault.jpg"
+  },
+  {
+    "id": 10,
+    "title": "My Name",
+    "year": "2021",
+    "director": "Kim Jin Min",
+    "genre": "Drama, Action",
+    "rating": "8.6",
+    "description": "It is about a woman who joins an organized crime network and infiltrates the police as an undercover agent to uncover the truth about her father's death.",
+    "image_url": "https://th.bing.com/th/id/OIP.x6HHhxj7y7a35bkAD3rGhwHaLG?pid=ImgDet&w=1280&h=1919&rs=1"
+  },
+  {
+    "id": 11,
+    "title": "Train to Busan",
+    "year": "2016",
+    "director": "Sang-ho Yeon",
+    "genre": "Action, Horror, Suspense ",
+    "rating": "7.8",
+    "description": "When a zombie virus breaks out in South Korea, passengers on a train from Seoul to Busan fight for their survival.",
+    "image_url": "https://image.tmdb.org/t/p/original/9b9XJQElx8TD7oJT5rDaK1kWnF7.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The King and the Clown",
+    "year": "2005",
+    "director": "Jeong Jin-wan, Lee Joon-ik",
+    "genre": "Drama, history",
+    "rating": "8.1",
+    "description": "A couple of minstrels get into trouble when they perform a satire on the king, and are brought to trial before him. They are threatened with execution, but they could save their lives if they can make the king laugh.",
+    "image_url": "https://th.bing.com/th/id/R.da3c06dd6bba1deadd693718a5be959c?rik=Kt0kUr4GQIQ1pg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-VTFFsvH48uA%2fTWH1R_QjF9I%2fAAAAAAAAAhs%2fEEzTSbDSJLQ%2fs1600%2f6a00d8345163ca69e200e5507866d48834-640wi.jpg&ehk=yLnZqWDe4HKv1jCKm69YkhizUjn7ijwl3TujTRZGhVs%3d&risl=&pid=ImgRaw&r=0"
+  }
+]

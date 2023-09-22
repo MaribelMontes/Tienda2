@@ -1,0 +1,25 @@
+@model Practice2.Models.Ciudad
+
+<div class="container-comments">
+    @foreach (var item in Model.Comments)
+    {
+        <div class="bg/white p-2">
+        <span>User </span>
+        <span class="date text-black-50">
+            Shared Publicly - @item.date
+        </span>
+        <div class="mt-2">
+            <p>@item.text</p>
+            </div>
+            <hr />
+        </div>
+    }
+
+    <div class="bg-light p-2">
+        <form asp-controller="Comment" asp-action="Save" method="POST">
+            <input type="hidden" name="ciudadid" value=@Model.id />
+            <textarea name="text" class="form-control- mb-1"></textarea>
+            <button class="btn btn-primary" type="submit">Post</button>
+        </form>
+    </div>
+</div>
